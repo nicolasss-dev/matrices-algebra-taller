@@ -1,0 +1,23 @@
+# Dependencias principales
+numpy>=1.20.0
+matplotlib>=3.3.0
+
+# Dependencias opcionales para funcionalidades avanzadas
+scipy>=1.7.0        # Para álgebra lineal avanzada
+seaborn>=0.11.0     # Para visualizaciones mejoradas
+
+# Dependencias de desarrollo y testing (opcional)
+pytest>=6.0.0
+pytest-cov>=2.10.0
+numpy-stl>=2.16.0   # Para visualizaciones 3D avanzadas
+
+# Notas de instalación:
+# 
+# Instalación básica (requerida):
+#   pip install numpy matplotlib
+#
+# Instalación completa (recomendada):
+#   pip install -r requirements.txt
+#
+# Solo para desarrollo:
+#   pip install -r requirements.txt pytest black flake8
